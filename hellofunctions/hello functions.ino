@@ -5,7 +5,7 @@ long duration, cm, inches;
 Servo myservo;
 void setup()
 {
-	myservo.attach(5);
+	myservo.attach(5);// says what pin the servo is attached to
 	Serial.begin(9600);
 	pinMode(trigpin, OUTPUT);
 	pinMode(echopin, INPUT);
@@ -33,23 +33,23 @@ int getdistance()
 
 void servo()
 {
-	inches = getdistance();
-	if (inches < 10)//
+	inches = getdistance();// makes "inches" equal to what is returned from getdistance.
+	if (inches < 10)//if the # of inches is less than 10 do this
 	{
-		myservo.write(90);
+		myservo.write(90);// turn the servo slowly
 	}
-	if (inches > 10)
+	if (inches > 10)//if the # of inches is greater than 10 do this
 	{
-		myservo.write(180);
+		myservo.write(180);// turn the servo fast
 	}
 }
 
 void print()
 {
-	Serial.print(inches);//put the interval inches in the serial monitor.
-	Serial.print("in");//
-	Serial.print(cm);
-	Serial.print("cm");
-	Serial.println();
-	delay(250);
+	Serial.print(inches);// gives the interval "inches"
+	Serial.print("in");// gives "in"
+	Serial.print(cm);// gives the interval cm
+	Serial.print("cm");// prints "cm"
+	Serial.println();// puts it in the serial monitor
+	delay(250);// wait 250 milliseconds
 }
