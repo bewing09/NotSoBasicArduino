@@ -11,4 +11,4 @@ i learned how to use leds and sensors in the same assignment.
 hello functions is when a servo spun depending on the distance given by a servo
 
 ## wiring diagram
-![hellofunctions](hellofunctions/heelo.jpg)
+![hellofunctions](hellofunctions/heelo.png)
