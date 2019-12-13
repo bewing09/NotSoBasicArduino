@@ -1,6 +1,6 @@
 
 ## New ping
-Newping is when i made 2 leds blink depending on the distance given by the sensor.
+Newping is when i made 2 leds blink depending on the distance given by the sensor. the assignment was to use a sensor to make something happenand i chose to have a red led blinkwhen cm < 10 and a blue led blink when cm>10
 ### Wiring Diagram
 ![New Ping](newping/newpingwiring.PNG)
 
