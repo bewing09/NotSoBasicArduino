@@ -14,5 +14,4 @@ hello functions is when a servo spun in different directions depending on the di
 ![hellofunctions](hellofunctions/heelo.PNG)
 
 ### What I Learned
-I learned how to use functions to separate the different parts of the code that do different things so i can see what each part is about and i also learned how to use a HCSR04 sensor.
-
+I learned how to use functions to separate the different parts of the code that do different things so I can see what each part is about and I also learned how to use a HCSR04 sensor.
